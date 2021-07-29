@@ -1,0 +1,13 @@
+/*Seperated the style into 3 sections*/
+/* We have the header where we are going to say "Word of The Day", 
+then we have the word itself and then under that we have the definition of the word.
+*/
+.WordOfTheDay-Header {
+	margin-bottom: 0px;
+}
+.WordOfTheDay-Word {
+	font-size: 1em;
+}
+.WordOfTheDay-Definition {
+	font-size: 0.5em;
+}
