@@ -84,7 +84,7 @@ Module.register("WordOfTheDay",{
 		var definition = document.createElement("span");
 		definition.setAttribute('class', 'WordOfTheDay-Definition');
 		if(this.dataNotification != null){
-			Word.innerHTML = this.dataNotification.rss.channel.item[0].Word;
+			Word.innerHTML = this.dataNotification.rss.channel.item[0].title;
 			definition.innerHTML = this.dataNotification.rss.channel.item[0].shortdef;
 		}
 		wrapper.appendChild(moduleHeader);
